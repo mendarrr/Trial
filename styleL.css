@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/assets/imgs/sparkly.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.starter {
+  width: 400px;
+  background: transparent;
+  border: 2px solid black;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.starter h1 {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.starter .form-group {
+  position: relative;
+  width: 100;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.form-group input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.form-group input::placeholder {
+    color: rgb(58, 14, 14);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.form-group i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.starter .remfo {
+    display: flex;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.starter .remfo a{
+    margin-left: 185px;
+    text-decoration: none;
+    color: black;
+}
+
+label {
+	margin: 0;
+}
+
+input[type="checkbox"] {
+	margin: 0;
+}
+
+.remfo label input {
+    accent-color: black;
+    margin-right: 4px;
+}
+
+.starter .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: rgb(19, 226, 253);
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+}
+
+.starter .reg-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.reg-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.reg-link p a:hover{
+    color: rgb(19, 226, 253);
+    text-decoration: underline;
+}
+
+.starter .btn:hover {
+    background: rgb(19, 226, 253);
+    border: 1px solid rgb(0, 37, 158);
+}
+
